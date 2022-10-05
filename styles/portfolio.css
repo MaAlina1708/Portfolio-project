@@ -1,4 +1,48 @@
-h1 {
+:root {
+  --branding-color: #d9d9d9;
+  --second-branding-color: #31d2f2;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: black;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font-family);
+}
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+h2 {
+  line-height: 2;
+}
+
+.main-info {
+  margin-top: 150px;
+}
+.hero {
+  text-align: center;
+  background-color: var(--branding-color);
+  padding: 40px;
+}
+.portfolioLink {
+  color: var(--second-branding-color);
+}
+.btn-info {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 12px 20px;
+  background-color: var(--second-branding-color);
+}
+.portfolio-image {
+  width: 70%;
+  height: auto;
+  vertical-align: middle;
+  padding-top: 30px;
+  margin: 20px auto;
 }
