@@ -18,7 +18,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="stylesheet" href="/styles/portfolio.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
@@ -30,12 +30,58 @@
     ></script>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-light shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Mastega A</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="myprojects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="certificats.html">Certificats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactme.html">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero container-fluid">
       <div class="row">
         <div class="col-lg-8 main-info d-lg-block pe-0">
+          <h3 class="text-muted">
+            <i class="fa-solid fa-hand"></i> Hello, i am
+          </h3>
           <h1>Mastega Alina</h1>
-          <h2 class="mb-5">Front-end developer, based in Ukraine, Kyiv</h2>
+          <h2 class="mb-5 text-muted">Front-end developer, based in Ukraine</h2>
           <a href="" class="btn btn-info">Contact me</a>
+          <h5 class="mt-5 text-muted">
+            This web-portfolio was built in order to get aqcuinted future
+            employer with me and my projects. If you are interested in
+            cooperation, you can take a look at my projects
+            <a href="/myprojects.html" class="portfolioLink text-muted"
+              >here.
+            </a>
+          </h5>
         </div>
         <div class="col-lg-4 mb-3 d-lg-block">
           <img
@@ -45,8 +91,29 @@
           />
         </div>
       </div>
-    </div>
-    <footer>
+      <footer>
+        <a
+          href="mailto:alinamastega@outlook.com"
+          class="email-link text-muted"
+          title="email link"
+          >alinamastega@outlook.com</a
+        >
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/__nikamalina__/"
+            target="_blank"
+            title="Instagram profile"
+          >
+          </a>
+          <a
+            href="https://github.com/MaAlina1708?tab=repositories"
+            target="_blank"
+            title="Github profile"
+          ></a>
+          <a href="http://" target="_blank" title="Facebook page"></a>
+        </div>
+      </footer>
+
       <p>
         This project is
         <a
@@ -58,9 +125,10 @@
         <a
           href="https://www.shecodes.io/graduates/47280-alina-mastega"
           class="portfolioLink"
+          target="_blank"
           >Mastega Alina</a
         >.
       </p>
-    </footer>
+    </div>
   </body>
 </html>

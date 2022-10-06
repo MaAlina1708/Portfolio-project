@@ -15,15 +15,22 @@ h6 {
   font-family: var(--heading-font-family);
 }
 h1 {
-  font-size: 45px;
+  font-size: 70px;
   font-weight: bold;
 }
-h2 {
+h2,
+h5 {
   line-height: 2;
+  margin-top: 20px;
+}
+p {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: var(--default-font-family);
 }
 
 .main-info {
-  margin-top: 150px;
+  margin-top: 40px;
 }
 .hero {
   text-align: center;
@@ -31,7 +38,7 @@ h2 {
   padding: 40px;
 }
 .portfolioLink {
-  color: var(--second-branding-color);
+  color: black;
 }
 .btn-info {
   font-size: 18px;
@@ -48,4 +55,37 @@ h2 {
   border-right: 10px solid var(--second-branding-color);
   border-bottom: 10px solid var(--second-branding-color);
   /* border-style: inset; */
+}
+.btn-branding-outline {
+  display: block;
+  margin: 0 auto;
+  color: black;
+  border-radius: 4px;
+  border: 1px solid black;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 15px 30px;
+  width: fit-content;
+}
+
+.project-description {
+  padding: 60px;
+}
+.email-link {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: var(--default-font-family);
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+  }
+  .portfolio-image {
+    width: 50%;
+  }
+  .main-info {
+    margin-top: 0;
+  }
 }
