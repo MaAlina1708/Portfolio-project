@@ -1,6 +1,7 @@
 :root {
   --branding-color: #d9d9d9;
   --second-branding-color: #31d2f2;
+  --third-branding-color: #6c757d;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -28,8 +29,13 @@ p {
   line-height: 30px;
   font-family: var(--default-font-family);
 }
+footer {
+  font-size: 30px;
+  margin: 10px 0;
+}
 
 .main-info {
+  display: block;
   margin-top: 40px;
 }
 .hero {
@@ -38,7 +44,7 @@ p {
   padding: 40px;
 }
 .portfolioLink {
-  color: black;
+  color: var(--third-branding-color);
 }
 .btn-info {
   font-size: 18px;
@@ -73,12 +79,15 @@ p {
 }
 .email-link {
   font-size: 20px;
-  color: black;
+  color: var(--third-branding-color);
   text-decoration: none;
   font-family: var(--default-font-family);
 }
 
 @media (max-width: 960px) {
+  h1 {
+    font-size: 50px;
+  }
   .project-description {
     padding: 0;
   }
