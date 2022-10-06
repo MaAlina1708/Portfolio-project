@@ -45,4 +45,7 @@ h2 {
   vertical-align: middle;
   padding-top: 30px;
   margin: 20px auto;
+  border-right: 10px solid var(--second-branding-color);
+  border-bottom: 10px solid var(--second-branding-color);
+  /* border-style: inset; */
 }
