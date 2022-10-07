@@ -94,6 +94,9 @@ footer {
 .my-story {
   color: var(--third-branding-color);
 }
+.contact-me {
+  text-decoration: none;
+}
 @media (max-width: 960px) {
   h1 {
     padding-bottom: 10px;
