@@ -34,6 +34,10 @@ footer {
   margin: 30px 0;
 }
 
+.navbar-nav .nav-link:hover {
+  color: var(--second-branding-color);
+}
+
 .main-info {
   display: block;
   margin-top: 40px;
@@ -91,6 +95,7 @@ footer {
 .content h1 {
   font-size: 50px;
 }
+
 .my-story {
   color: var(--third-branding-color);
 }
