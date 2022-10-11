@@ -49,10 +49,11 @@ footer .social-links a:hover {
   color: var(--second-branding-color);
   background-color: var(--third-branding-color);
 }
+
 .projectbtn:hover {
   border: thick double var(--second-branding-color);
 }
-
+nav li.active a,
 .navbar-nav .nav-link:hover {
   color: var(--second-branding-color);
 }
@@ -126,6 +127,9 @@ footer .social-links a:hover {
   color: var(--third-branding-color);
 }
 .contact-me:hover {
+  color: var(--second-branding-color);
+}
+.footer-link a:hover {
   color: var(--second-branding-color);
 }
 
